@@ -1,0 +1,30 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1)
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.page__link {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  position: relative;
+  animation: pulse 3s infinite;
+}
+
+.page__link:hover {
+  color: rgba(255, 255, 255, 1);
+  animation: none;
+}

@@ -1,0 +1,9 @@
+@import url(../vendor/normalize.css);
+@import url(../block/root/root.css);
+@import url(../block/page/page.css);
+@import url(../block/page/__stars/page__stars.css);
+@import url(../block/page/__title/page__title.css);
+@import url(../block/page/__about-me/page__about-me.css);
+@import url(../block/page/__link/page__link.css);
+@import url(../block/page/__link/_border/page__link_border.css);
+
