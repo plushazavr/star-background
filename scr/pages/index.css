@@ -3,7 +3,15 @@
 @import url(../block/page/page.css);
 @import url(../block/page/__stars/page__stars.css);
 @import url(../block/page/__title/page__title.css);
+@import url(../block/page/__title/_text/page__title_text.css);
+@import url(../block/page/__title/_span/page__title_span.css);
 @import url(../block/page/__about-me/page__about-me.css);
 @import url(../block/page/__link/page__link.css);
 @import url(../block/page/__link/_border/page__link_border.css);
-
+@import url(../block/navbar/navbar.css);
+@import url(../block/navbar/__list/navbar__list.css);
+@import url(../block/navbar/__list/_link/navbar__list_link.css);
+@import url(../block/navbar/__link/navbar__link.css);
+@import url(../block/navbar/__link/_border/navbar__link_border.css);
+@import url(../block/about/about.css);
+@import url(../block/about/__title/about__title.css);
